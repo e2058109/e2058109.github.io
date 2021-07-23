@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Yuki Matsuo">
+        <title>好きなゲーム</title>
+        <link rel="stylesheet" href="./css/work.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="box">
+                
+                <h1 id="n" style="text-align: center;">Dead by daylight</h1>
+                
+                <img src="./img/th.jfif" alt="dbd" width="350" style="display: block;margin: auto;">
+                <div id="menu">
+                    <h2 id="mokuzi">目次</h2>
+                    <ol>
+                        <li><a href="#zyoutatu">上達するためには</a></li>
+                        <li><a href="#play">上手なプレイヤーのプレイ</a></li>
+                        <li><a href="#killer">サバイバーとキラー</a></li>
+                        <li><a href="#map">マップ</a></li>
+                        <li><a href="#park">パークやアドオン、オファリング</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: right;">
+            <a href="http://ddd-smart.net/"><img src="./img/OIP.jfif" alt="dbd"></a>
+        </div>
+        <div id="menu2">
+
+
+            <h1>DBDとは</h1>
+            <dl>
+            <dt>DBD</dt>
+            <dd>
+                カナダのゲーム会社Behaviour Interactiveが開発し、
+                Starbreeze Studios（英語版）より発売された非対称型対戦サバイバルホラーゲーム。
+            </dd>
+            <dt>DBDのシステム</dt>
+            <dd>
+                非対称型対戦アクションゲームである本作は、1人のプレイヤーが殺人鬼（キラー）を操作し、残りのプレイヤーたちが生存者（サバイバー）を操作する仕組みとなっている。
+                生存者役となるプレイヤーは4人参加する。
+                殺人鬼役のプレイヤーのゲーム画面は一人称視点で表示され、生存者役のプレイヤーの画面は三人称視点で表示される。
+                殺人鬼役のプレイヤーは、複数の殺人鬼の中から1人を選択し、同様に生存者役のプレイヤーも複数いる生存者たちの中から1人を選択する。
+                なお、チーム内で複数のプレイヤーが同じ生存者を選ぶことも可能である。
+            </dd>
+            </dl>
+            <br>
+        
+            <div>
+                <h2 id="zyoutatu">上達するためには</h2>
+                このゲームを上達するためには4つポイントがあります。
+                <ol>
+                    <li>上手なプレイヤーのプレイ動画を見ること</li>
+                    <li>サバイバーとキラーの両方をプレイすること</li>
+                    <li>マップを覚えギミックがある位置を把握すること</li>
+                    <li>パークやアドオン、オファリングを使いこなすこと</li>
+            
+                </ol>
+                <br>
+                <h2 id="play">上手なプレイヤーのプレイ</h2>
+                <p>
+                    上手なプレイヤーの動画はyoutubeにたくさんあります。
+                    私のおすすめの動画を貼っておきます。
+                </p>
+                <br>
+                <a href="../work/work2.html" target="_blank" >おすすめ動画</a>
+                <br>
+        
+        
+                <h2 id="killer">サバイバーとキラーの両方をプレイ</h2>
+                <p>
+                    このゲームはサバイバーはキラーから逃げ、キラーはサバイバーを追いかけるので
+                    両方をプレイするとサバイバーもキラーも相手の考えがわかるようになるのでおすすめです。
+                </p>
+                <br>
+        
+                <h2 id="map">マップを覚えギミックがある位置を把握する</h2>
+                <p>
+                    このゲームはサバイバーよりキラーの方が足が速いのでその差を埋めるために板を倒しキラーの足止めをしたり、
+                    窓枠を越えキラーに対し時間稼ぎができたりします。
+                    
+                </p>
+                <div>
+                    <br>
+                    細かくまとめたもののリンクを貼っておきます。
+                    <br>
+                    <a href="../work/work3.html" target="_blank" onclick="kakuninn()">マップの詳細</a>
+                    <br>
+                    <h2 id="park">パークやアドオン、オファリングとは</h2>
+                    <p>
+                        パークやアドオン、オファリングとは自分がゲームを有利に進めるための重要な装備です。
+                        これはサバイバーとキラーどちらも備えています。
+                        例えば、サバイバー側はどこに板があるのか、どこに窓枠があるのか分からないがあるパークを使うとどこに窓枠があるのか
+                        どこに板があるのか見えるようになります。
+                        その一覧を貼っておきます。
+                    </p>
+                    <ul>
+                        <li><a href="https://kamigame.jp/dbd/page/93379019268947975.html/" target="_blank">パーク一覧</a></li>
+                        <li><a href="https://kamigame.jp/dbd/page/93674768519135239.html/" target="_blank">アドオン一覧</a></li>
+                        <li><a href="https://kamigame.jp/dbd/page/93678489135218695.html/" target="_blank">オファリング一覧</a></li>
+                    </ul>
+                    
+                </div>
+                
+                <div>
+            
+                    <h2>キラー殺傷率成績　※2020年10月</h2>
+                    <canvas id="b" width="840" height="500"></canvas>
+                    <canvas class="background"></canvas>
+                    <p>
+                        私がキラー好きなので殺傷率のランキングを作りました。
+                        殺傷率とは1playでフックやエンドゲーム・コラプスによる処刑、メメント・モリなどによる殺害、失血死を含むサバイバーを殺した割合。
+                    </p>
+                </div>
+                
+                
+                
+                
+                <div>
+                    <h2>まとめ</h2>
+                    DBDはサバイバーとキラーに分かれ鬼ごっこをすようなゲームです。
+                    <br>
+                    ランクが設定してあるので自分に近いプレイヤースキルの敵や味方とマッチングすようになっています。
+                    このゲームは上手くなるのに時間がかかりますがやればやるほど楽しくなっていきます。
+                    最近はサバイバーが多いのでキラーでプレイした方がマッチ時間は早いですが、キラーはサバイバーに比べると難しいので先にサバイバーを練習
+                    してからキラーを使うと良いですね。
+                    <br>
+                    今回まとめた動画やマップ、アドオン等を活用して上手くなれるように頑張ってください。
+                </div>
+            </div>
+        </div>
+
+    
+    </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js" integrity="sha512-lUsN5TEogpe12qeV8NF4cxlJJatTZ12jnx9WXkFXOy7yFbuHwYRTjmctvwbRIuZPhv+lpvy7Cm9o8T9e+9pTrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/chart.js"></script>
+<script src="./js/base.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</html>
